@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "District Zero",
+  "name": "DistrictZero Mentorship Program",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://www.districtzero.co/get-started"
+    "url": "https://www.districtzero.co"
   },
   "tabs": [
     {
@@ -54,29 +54,66 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "emotional-intelligence-overview"
       ]
     },
     {
-      "group": "Features",
+      "group": "For Mentees (Medical Students)",
       "pages": [
-        "features/ai-powered-insights",
-        "features/real-time-analytics",
-        "features/customizable-dashboards"
+        "mentees/getting-started",
+        "mentees/completing-check-ins",
+        "mentees/action-plan-tasks",
+        "mentees/scheduling-sessions",
+        "mentees/tracking-progress"
+      ]
+    },
+    {
+      "group": "For Mentors (Clinical Faculty)",
+      "pages": [
+        "mentors/getting-started",
+        "mentors/managing-mentees",
+        "mentors/conducting-check-ins",
+        "mentors/creating-action-plans",
+        "mentors/providing-feedback"
+      ]
+    },
+    {
+      "group": "For Administrators (MedEd Department)",
+      "pages": [
+        "administrators/program-setup",
+        "administrators/managing-users",
+        "administrators/custom-reports",
+        "administrators/program-analytics",
+        "administrators/best-practices"
+      ]
+    },
+    {
+      "group": "For Private-Clinic Mentors (Psychologists)",
+      "pages": [
+        "private-mentors/getting-started",
+        "private-mentors/patient-management",
+        "private-mentors/ei-assessments",
+        "private-mentors/progress-tracking",
+        "private-mentors/integrating-with-medical-education"
+      ]
+    },
+    {
+      "group": "Key Features",
+      "pages": [
+        "features/ei-competencies",
+        "features/check-ins",
+        "features/action-plans",
+        "features/scheduling",
+        "features/reporting",
+        "features/analytics"
       ]
     },
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/introduction",
+        "api-reference/authentication",
+        "api-reference/endpoints"
       ]
     }
   ],
